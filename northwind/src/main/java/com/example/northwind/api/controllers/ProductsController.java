@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.northwind.business.abstracts.IProductService;
-import com.example.northwind.entities.concretes.Category;
 import com.example.northwind.entities.concretes.Product;
 
 @RestController

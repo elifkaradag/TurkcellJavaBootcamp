@@ -35,7 +35,7 @@ public class CategoriesConroller {
 		Category addedCategory = categoryService.add(category);
 
 		if(addedCategory == null) {
-			System.out.println("Bu kategori daga önce eklendi.");
+			System.out.println("Bu kategori daha önce eklendi.");
 		}
 
 		return ResponseEntity.ok(addedCategory);

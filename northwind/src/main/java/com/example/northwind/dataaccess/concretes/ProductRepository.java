@@ -10,4 +10,6 @@ public interface ProductRepository extends JpaRepository<Product,Integer>{
 	
 	List<Product> getProductsByCategoryId(int categoryId);
 
+	Product getOneProductById(int productId);
+
 }
